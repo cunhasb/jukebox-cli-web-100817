@@ -45,7 +45,6 @@ def run(songs)
   until command == "exit"
   puts "Please enter a command:"
   command = gets.chomp
-  binding.pry
   case  command
     when "help" then help
     when "list" then list(songs)
@@ -61,7 +60,6 @@ run(songs)
 
 
 
-end
 
 
 #play(songs)
