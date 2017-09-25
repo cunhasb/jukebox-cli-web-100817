@@ -29,7 +29,7 @@ def list(my_songs)
   #this method is different! Collect the keys of the my_songs hash and
   #list the songs by name
   i = 0
-  my_songs.collect{|keys,values| puts "#{i+= 1}.\ #{keys}}
+  my_songs.collect{|keys,values| puts "#{i+= 1}.\ #{keys}"}
 end
 
 list(my_songs)
