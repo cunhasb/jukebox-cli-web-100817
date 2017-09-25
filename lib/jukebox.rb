@@ -36,7 +36,6 @@ song=nil
    end
  end
  puts song
-
 end
 
 
