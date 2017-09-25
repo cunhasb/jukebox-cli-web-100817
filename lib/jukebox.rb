@@ -24,5 +24,13 @@ def list(songs)
   songs.each {|song| puts "#{i+=1}\. #{song}"}
 end
 
+def play(songs)
+song=nil
+  do until song
+    binding.pry
+  end
+
+end
+
 
 #list(songs)
