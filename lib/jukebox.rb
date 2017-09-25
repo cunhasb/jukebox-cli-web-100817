@@ -49,7 +49,7 @@ def run(songs)
     when "help" then help
     when "list" then list(songs)
     when "play" then play(songs)
-    when "exit" then exit
+    when "exit" then exit_jukebox
     end
   end
 end
