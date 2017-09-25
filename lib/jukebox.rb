@@ -20,8 +20,10 @@ def help
 end
 
 def list(songs)
-i=0
- songs.each {|song| puts "#{i+=} . #{song}""}
+  i=0
+  songs.each {|song| puts "#{i+=} . #{song}""}
+  end
 end
+
 
 list(songs)
