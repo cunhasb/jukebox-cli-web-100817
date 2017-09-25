@@ -11,7 +11,7 @@
 # "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
 # "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
 # }
-require_relative "/bin/advanced_jukebox"
+require_relative "../bin/advanced_jukebox"
 require 'pry'
 def help
   #this method should be the same as in jukebox.rb
