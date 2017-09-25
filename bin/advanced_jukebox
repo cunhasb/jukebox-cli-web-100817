@@ -14,3 +14,4 @@ my_songs = {
 }
 
 run(my_songs)
+ruby system 'open ~/home/cunhasb/jukebox-cli-web-100817/audio/Emerald-Park/06.mp3'
