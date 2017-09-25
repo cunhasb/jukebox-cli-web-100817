@@ -26,7 +26,7 @@ end
 
 def play(songs)
 song=nil
-  do until song
+  until song
     binding.pry
   end
 
