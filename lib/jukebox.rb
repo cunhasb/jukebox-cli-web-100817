@@ -32,7 +32,6 @@ def play(songs)
    elsif songs.include?(user_input)
      song = user_input
    end
- end
  puts song
 end
 
