@@ -44,7 +44,8 @@ def run(songs)
   command=nil
   until command == "exit"
   puts "Please enter a command:"
-  case  gets.chomp
+  command = gets.chomp
+  case  command
     when "help" then help
     when "list" then list(songs)
     when "play" then play(songs)
