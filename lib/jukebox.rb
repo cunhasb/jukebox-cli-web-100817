@@ -33,4 +33,4 @@ song=nil
 end
 
 
-#list(songs)
+play(songs)
