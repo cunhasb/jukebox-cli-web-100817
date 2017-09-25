@@ -23,3 +23,5 @@ def list(songs)
  binding.pry
 
 end
+
+list(songs)
