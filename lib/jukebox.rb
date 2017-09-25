@@ -50,6 +50,10 @@ def run(songs)
     when "play" then play(songs)
     when "exit" then exit
     end
+  end
+end
+
+
 
 run(songs)
 
