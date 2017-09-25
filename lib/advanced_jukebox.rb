@@ -11,7 +11,7 @@
 # "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
 # "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
 # }
-
+require 'pry'
 def help
   #this method should be the same as in jukebox.rb
   puts "I accept the following commands:"
@@ -27,6 +27,7 @@ end
 def list(my_songs)
   #this method is different! Collect the keys of the my_songs hash and
   #list the songs by name
+  my_songs.collect{|song| song.key}
 end
 
 
