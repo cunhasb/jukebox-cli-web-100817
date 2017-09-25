@@ -41,6 +41,8 @@ end
 
 def run(songs)
   puts "Please enter a command:"
+  help
+
 end
 
 
