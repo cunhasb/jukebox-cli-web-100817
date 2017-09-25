@@ -31,8 +31,8 @@ song=nil
     input = gets.chomp
     if !((1...10) === input.to_i) || !(songs.inclue?(input))
       break
+      binding.pry
     end
-binding.pry
    (1...10) === input.to_i ? song = songs[input.to_i-1] : song = input
 
   end
