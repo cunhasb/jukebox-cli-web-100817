@@ -20,8 +20,8 @@ def help
 end
 
 def list(songs)
- binding.pry
-
+i=0
+ songs.each {|song| puts "#{i+=} . #{song}""}
 end
 
 list(songs)
