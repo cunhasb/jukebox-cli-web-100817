@@ -35,8 +35,8 @@ song=nil
      song = input
    end
  end
- binding.pry
- song
+ puts song
+
 end
 
 
