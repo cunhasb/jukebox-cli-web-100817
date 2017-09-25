@@ -51,7 +51,7 @@ def run(songs)
     when "exit" then exit
     end
 
-
+run(songs)
 
 
 
