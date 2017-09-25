@@ -31,8 +31,8 @@ song=nil
     input = gets.chomp
    if (1...10) === input.to_i
      song = songs[input.to_i-1]
-   elsif
-     songs.include?(input) = song = input
+   elsif songs.include?(input)
+     song = input
    end
  end
 end
