@@ -20,6 +20,6 @@ def help
 end
 
 def list(songs)
-binding.pry
-  songs.each
+ binding.pry
+
 end
