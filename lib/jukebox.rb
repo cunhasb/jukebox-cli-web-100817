@@ -21,7 +21,7 @@ end
 
 def list(songs)
   i=0
-  songs.each {|song| puts "#{i+=} . #{song}"}
+  songs.each {|song| puts "#{i+=} \. #{song}"}
 end
 
 
