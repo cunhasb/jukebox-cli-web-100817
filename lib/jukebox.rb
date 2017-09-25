@@ -47,8 +47,13 @@ def run(songs)
   command = gets.chomp
   case  command
     when "help" then help
-    when "list" then list(songs)
-    when "play" then play(songs)
+    when "list" then
+      list(songs)
+      help
+    when "play" then
+      list(songs)
+      play(songs)
+      help
     when "exit" then exit_jukebox
     end
   end
