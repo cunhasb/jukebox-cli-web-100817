@@ -31,7 +31,7 @@ def list(my_songs)
   binding.pry
 end
 
-
+list(my_songs)
 def play(my_songs)
   #this method is slightly different!
   #you should still ask the user for input and collect their song choice
