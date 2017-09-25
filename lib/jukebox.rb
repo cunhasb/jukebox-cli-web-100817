@@ -25,9 +25,7 @@ def list(songs)
 end
 
 def play(songs)
-song=nil
-  until song
-    puts "Please enter a command:"
+  song = "Invalid input, please try again"
     user_input = gets.chomp
    if (1...10) === user_input.to_i
      song = songs[(user_input.to_i)-1]
