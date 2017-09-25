@@ -29,14 +29,12 @@ song=nil
   until song
     puts "Please enter a command:"
     input = gets.chomp
-    if !((1...10) === input.to_i) || !(songs.inclue?(input))
-      binding.pry
-      break
-    end
-   (1...10) === input.to_i ? song = songs[input.to_i-1] : song = input
-
-  end
-
+   if (1...10) === input.to_i
+     song = songs[input.to_i-1]
+   elsif
+     songs.inclue?(input) = song = input
+   end
+ end
 end
 
 
