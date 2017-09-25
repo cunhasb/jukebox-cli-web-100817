@@ -32,7 +32,6 @@ def list(my_songs)
   my_songs.collect{|keys,values| puts "#{i+= 1}.\ #{keys}"}
 end
 
-list(my_songs)
 def play(my_songs)
   #this method is slightly different!
   #you should still ask the user for input and collect their song choice
@@ -41,6 +40,10 @@ def play(my_songs)
   #if it isn't, tell them their choice is invalid
   #if it is, play the song using the system 'open <file path>' syntax
   #get the file path of the song by looking it up in the my_songs hash
+  song = "Invalid input, please try again"
+  user_input = get.chomp
+  binding.pry
+  my_songs.key?
 
 end
 
