@@ -30,8 +30,8 @@ song=nil
     puts "Please enter a command:"
     input = gets.chomp
     if !((1...10) === input.to_i) || !(songs.inclue?(input))
-      break
       binding.pry
+      break
     end
    (1...10) === input.to_i ? song = songs[input.to_i-1] : song = input
 
