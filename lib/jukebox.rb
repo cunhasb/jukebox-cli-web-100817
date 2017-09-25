@@ -27,7 +27,14 @@ end
 def play(songs)
 song=nil
   until song
+    puts "Please enter a command:"
+    input = gets.chomp
+    if !((1...10) === input.to_i) || !(songs.inclue?(input))
+      break
+    end
+
     binding.pry
+
   end
 
 end
