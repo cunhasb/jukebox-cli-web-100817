@@ -28,15 +28,15 @@ def play(songs)
 song=nil
   until song
     puts "Please enter a command:"
-    input = gets.chomp
-   if (1...10) === input.to_i
-     song = songs[(input.to_i)-1]
-   elsif songs.include?(input)
-     song = input
+    user_input = gets.chomp
+   if (1...10) === user_input.to_i
+     song = songs[(user_input.to_i)-1]
+   elsif songs.include?(user_input)
+     song = user_input
    end
  end
  puts song
 end
 
 
-play(songs)
+#play(songs)
