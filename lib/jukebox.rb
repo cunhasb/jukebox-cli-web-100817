@@ -33,7 +33,7 @@ song=nil
       break
     end
 
-   (1...10) === input ? song = songs[input.to_i+1] : song = input
+   (1...10) === input.to_i ? song = songs[input.to_i-1] : song = input
     binding.pry
 
   end
