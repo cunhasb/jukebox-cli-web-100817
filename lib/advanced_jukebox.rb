@@ -3,13 +3,13 @@
 #with the correct path to this directory on your computer
 
 my_songs = {
-"Go Go GO" => '/Users/cunha/.atom/.learn-ide/home/cunhasb/jukebox-cli-web-100817/jukebox-cli/audio/Emerald-Park/01.mp3',
-"LiberTeens" => '/Users/cunha/.atom/.learn-ide/home/cunhasb/jukebox-cli/audio/Emerald-Park/02.mp3',
-"Hamburg" =>  '/Users/cunha/.atom/.learn-ide/home/cunhasb/jukebox-cli/audio/Emerald-Park/03.mp3',
-"Guiding Light" => '/Users/cunha/.atom/.learn-ide/home/cunhasb/jukebox-cli/audio/Emerald-Park/04.mp3',
-"Wolf" => '/Users/cunha/.atom/.learn-ide/home/cunhasb/jukebox-cli/audio/Emerald-Park/05.mp3',
-"Blue" => '/Users/cunha/.atom/.learn-ide/home/cunhasb/jukebox-cli/audio/Emerald-Park/06.mp3',
-"Graduation Failed" => '/Users/cunha/.atom/.learn-ide/home/cunhasb/jukebox-cli/audio/Emerald-Park/07.mp3'
+"Go Go GO" => '/home/cunhasb/jukebox-cli-web-100817/jukebox-cli/audio/Emerald-Park/01.mp3',
+"LiberTeens" => '/home/cunhasb/jukebox-cli/audio/Emerald-Park/02.mp3',
+"Hamburg" =>  '/home/cunhasb/jukebox-cli/audio/Emerald-Park/03.mp3',
+"Guiding Light" => '/home/cunhasb/jukebox-cli/audio/Emerald-Park/04.mp3',
+"Wolf" => '/home/cunhasb/jukebox-cli/audio/Emerald-Park/05.mp3',
+"Blue" => '/home/cunhasb/jukebox-cli/audio/Emerald-Park/06.mp3',
+"Graduation Failed" => '/home/cunhasb/jukebox-cli/audio/Emerald-Park/07.mp3'
 }
 
 require 'pry'
@@ -43,7 +43,7 @@ def play(my_songs)
   song = "Invalid input, please try again"
   user_input = gets.chomp
   binding.pry
-  my_songs.key?(user_input) ? system 'open'
+  my_songs.key?(user_input) ? system 'open' my_songs[user_input]
 
 end
 
