@@ -58,4 +58,12 @@ end
 
 def run(my_songs)
   #this method is the same as in jukebox.rb
+  song = "Invalid input, please try again"
+    user_input = gets.chomp
+   if (1...10) === user_input.to_i
+     song = songs[(user_input.to_i)-1]
+   elsif songs.include?(user_input)
+     song = user_input
+   end
+ puts song
 end
