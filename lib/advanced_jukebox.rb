@@ -44,7 +44,7 @@ def play(my_songs)
   user_input = gets.chomp
   if my_songs.key?(user_input)
     #puts "system\(\'open #{my_songs[user_input]}\'\)"
-    system ("\'open #{my_songs[user_input]}\'")
+    system ("\'start #{my_songs[user_input]}\'")
   else
      puts song
    end
