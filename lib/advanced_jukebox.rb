@@ -68,8 +68,8 @@ def run(my_songs)
       list(songs)
       help
     when "play" then
-      list(songs)
-      play(songs)
+      list(my_songs)
+      play(my_songs)
       help
     when "exit" then exit_jukebox
     else
