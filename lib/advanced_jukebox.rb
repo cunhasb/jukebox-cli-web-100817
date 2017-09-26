@@ -3,13 +3,13 @@
 #with the correct path to this directory on your computer
 
 my_songs = {
-"Go Go GO" => '/home/cunhasb/jukebox-cli-web-100817/jukebox-cli/audio/Emerald-Park/01.mp3',
-"LiberTeens" => '/home/cunhasb/jukebox-cli-web-100817/audio/Emerald-Park/02.mp3',
-"Hamburg" =>  '/home/cunhasb/jukebox-cli-web-100817/audio/Emerald-Park/03.mp3',
-"Guiding Light" => '/home/cunhasb/jukebox-cli-web-100817/audio/Emerald-Park/04.mp3',
-"Wolf" => '/home/cunhasb/jukebox-cli-web-100817/audio/Emerald-Park/05.mp3',
-"Blue" => '/home/cunhasb/jukebox-cli-web-100817/audio/Emerald-Park/06.mp3',
-"Graduation Failed" => '/home/cunhasb/jukebox-cli-web-100817/audio/Emerald-Park/07.mp3'
+"Go Go GO" => 'c:\Users\cunha\.atom\.learn-ide\home\cunhasb\jukebox-cli-web-100817\jukebox-cli\audio\Emerald-Park\01.mp3',
+"LiberTeens" => 'c:\Users\cunha\.atom\.learn-ide\home\cunhasb\jukebox-cli-web-100817\jukebox-cli\audio\Emerald-Park/02.mp3',
+"Hamburg" =>  'c:\Users\cunha\.atom\.learn-ide\home\cunhasb\jukebox-cli-web-100817\jukebox-cli\audio\Emerald-Park/03.mp3',
+"Guiding Light" => 'c:\Users\cunha\.atom\.learn-ide\home\cunhasb\jukebox-cli-web-100817\jukebox-cli\audio\Emerald-Park/04.mp3',
+"Wolf" => 'c:\Users\cunha\.atom\.learn-ide\home\cunhasb\jukebox-cli-web-100817\jukebox-cli\audio\Emerald-Park/05.mp3',
+"Blue" => 'c:\Users\cunha\.atom\.learn-ide\home\cunhasb\jukebox-cli-web-100817\jukebox-cli\audio\Emerald-Park/06.mp3',
+"Graduation Failed" => 'c:\Users\cunha\.atom\.learn-ide\home\cunhasb\jukebox-cli-web-100817\jukebox-cli\audio\Emerald-Park/07.mp3'
 }
 
 require 'pry'
