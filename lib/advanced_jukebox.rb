@@ -48,8 +48,6 @@ def play(my_songs)
   else
      puts song
    end
-
-#binding.pry
 end
 
 play(my_songs)
