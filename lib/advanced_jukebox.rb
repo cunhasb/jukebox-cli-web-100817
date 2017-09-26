@@ -42,9 +42,8 @@ def play(my_songs)
   #get the file path of the song by looking it up in the my_songs hash
   song = "Invalid input, please try again"
   user_input = gets.chomp
-  binding.pry
   my_songs.key?(user_input) ? system "\'open #{my_songs[user_input]}\'": puts song
-
+binding.pry
 end
 
 play(my_songs)
