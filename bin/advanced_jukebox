@@ -14,8 +14,3 @@ my_songs = {
 }
 
 run(my_songs)
-system 'start /home/cunhasb/jukebox-cli-web-100817/audio/Emerald-Park/06.mp3'
-system 'start C:/Users/cunha/.atom/.learn-ide/home/cunhasb/jukebox-cli-web-100817/audio/Emeral-Park/06.mp3'
-system("start \\C:\\Users\\cunha\\.atom\\.learn-ide\\home\\cunhasb\\jukebox-cli-web-100817\audio\Emeral-Park\06.mp3")
-system 'open C:\Users\cunha\.atom\.learn-ide\home\cunhasb\jukebox-cli-web-100817\audio\Emerald-Park\06.mp3'
-system 'start /home/cunhasb/jukebox-cli-web-100817/audio/Emerald-Park/01.mp3'
