@@ -43,7 +43,7 @@ def play(my_songs)
   song = "Invalid input, please try again"
   user_input = gets.chomp
   binding.pry
-  my_songs.key?(user_input) ? system 'open' my_songs[user_input]
+  my_songs.key?(user_input) ? system "\'open #{my_songs[user_input]}\'": puts song
 
 end
 
