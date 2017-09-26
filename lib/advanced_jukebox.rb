@@ -49,7 +49,7 @@ def play(my_songs)
      puts song
    end
 
-binding.pry
+#binding.pry
 end
 
 play(my_songs)
